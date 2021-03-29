@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, TouchableHighlight, View, Image, SafeAreaView, Button, Alert, Platform, Dimension, Dimensions, SafeAreaViewBase, ImageBackground } from 'react-native';
+import { StyleSheet, Text, TouchableHighlight, View, Image, SafeAreaView, Button, Alert, Platform, Dimension, Dimensions, SafeAreaViewBase, ImageBackground, TextInput } from 'react-native';
 import WelcomeScreen from './app/screens/WelcomeScreen';
 import ViewImageScreen from './app/screens/ViewImageScreen';
 import AppText from './app/components/AppText';
@@ -14,10 +14,14 @@ import Icon from './app/components/Icon'
 import ListItem from './app/components/ListItem'
 import AccountScreen from './app/screens/AccountScreen';
 import ListingScreen from './app/screens/ListingScreen';
-
+import {useState} from 'react';
+import AppTextInput from './app/components/AppTextInput';
+import AppPicker from './app/components/AppPicker';
+import LoginScreen from './app/screens/LoginScreen';
 
 export default function App() {
+
   return (
-      <ListingScreen/>
+    <LoginScreen/>
   );
 }
