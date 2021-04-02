@@ -8,8 +8,8 @@ import Screen from '../components/Screen';
 const initialMessages = [
     {
         id: 1,
-        title: 'T1',
-        description: 'D1',
+        title: 'asjdnjaskndsjasdasdasdsasssssssssssssasdasjhdbqwhdwbqjhdbqwjdqwvdjwq',
+        description: 'assadsajkdbqwkjdbqdkqwdnbkjqwbdkjqwbdkwjqved hwvd hqwdjsa',
         image: require('../assets/mosh.jpg'),
     },
     {
